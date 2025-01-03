@@ -19,6 +19,14 @@ function App() {
     }
    
   }
+   
+  // const addValue = ()=>{
+  //    setCounter(prevCounter => prevCounter + 1);
+  //    setCounter(prevCounter => prevCounter + 1);
+  //    setCounter(prevCounter => prevCounter + 1);
+  //    setCounter(prevCounter => prevCounter + 1);
+
+  // }
   const removeValue = () => {
     console.log("clicked" , counter);
     if(counter> 0){
