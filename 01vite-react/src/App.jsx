@@ -1,9 +1,13 @@
+import First from "./haider1"
 
 
 function App() {
-  
+  const username = "Haider Ali";
   return (
-   <h1>Haider Ali with vite </h1>
+    <>
+    <h1>My name is {username}</h1>
+  <First/>
+  </>
   )
 }
 
