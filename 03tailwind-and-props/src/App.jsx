@@ -8,22 +8,23 @@ function App() {
   const [count, setCount] = useState(0)
 
  
-  let obj = {
-    username: "Haider Ali",
-    age: 25,
-    address: "Pakistan",
-    hobbies: ["Reading", "Traveling", "Coding"],
-    isEmployed: true,
-    salary: 20000,
-  }
+  // let obj = {
+  //   username: "Haider Ali",
+  //   age: 25,
+  //   address: "Pakistan",
+  //   hobbies: ["Reading", "Traveling", "Coding"],
+  //   isEmployed: true,
+  //   salary: 20000,
+  // }
 
-  let newArr =[2,3,56,6]
+  // let newArr =[2,3,56,6]
 
   return (
     <>
      <h1 className="text-red-700 font-bold bg-black p-4 rounded-xl">Tailwind Test</h1>
      <Card />
-     <Card name="Haider Ali" username= "Hi this is my first card in by using react js"  />
+     <Card name='Haider ALi' username='This is my first Component creation by using React'/>
+     
     
     </>
   )
